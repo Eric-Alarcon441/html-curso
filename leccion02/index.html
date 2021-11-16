@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Elementos Básicos HTML</title>
+	</head>
+	<body>
+		<!--Aquí aprendimos los títulos en HTML-->
+		<h2>Títulos</h2>
+		<h1>Universidad HTML con h1</h1>
+		<h2>Título h2</h2>
+		<h3>Título h3</h3>
+		<h4>Título h4</h4>
+		<h5>Título h5</h5>
+		<h6>Título h6</h6>
+		<!--Aquí aprendimos los parrafos en HTML-->
+		<h2>Parrafos</h2>
+		<p>
+			Este es un parrafo <br />
+			salto de linea con br(line break).
+		</p>
+		<hr />
+		<p>Este parrfo se separo con un hr(horizontal rule).</p>
+		<!--Aqui aprendimos sobre links-->
+		<h2>Links</h2>
+		<p>
+			<b>
+				Si agregamos el atributo target con un valor "_blank" el link abre en
+				una nueva pestaña.
+			</b>
+		</p>
+		<a href="http://www.google.com" target="_blank"
+			>Este es un link hacia google.com</a
+		>
+		<br />
+		<a href="pagina1.html">Ir a página 1</a>
+		<!--Aquí aprendimos sobre imagenes-->
+		<h2>Imágenes</h2>
+		<p>
+			podemos agregarlas directamente a la carpeta del proyecto o en
+			subcarpetas(recomendado).
+		</p>
+		<img src="imagenes/html5.png" />
+		<p>imagen desde un servidor</p>
+		<img src="http://globalmentoring.com.mx/imagenes/css3.png" />
+		<p>imagen con ruta incorrecta</p>
+		<img src="http://globalmentoring.com.mx/imagenes/css4.png" />
+		<p>imágenes html-css-javascript</p>
+		<img src="http://globalmentoring.com.mx/imagenes/html5.png" />
+		<img src="http://globalmentoring.com.mx/imagenes/css3.png" />
+		<img src="http://globalmentoring.com.mx/imagenes/javascript.png" />
+		<p>
+			<b>atributo alt(texto alternativo)</b> se muestra en caso de que este mal
+			la ruta o no exista la imagen, se recomienda usar en todas las imágenes.
+		</p>
+		<img
+			src="http://globalmentoring.com.mx/imagenes/html3.png"
+			alt="Logo HTML5"
+		/>
+		<p>
+			<b>atributo width y height</b>, ajustan el ancho y alto de las imágenes,
+			solo al usar los 2 atributos la imagen puede deformarse.
+		</p>
+		<img
+			src="http://globalmentoring.com.mx/imagenes/javascript.png"
+			width="100px"
+		/>
+
+		<!--Aquí aprendimos atributos-->
+		<h2>Atributos</h2>
+		<p>
+			<b>atributo title(todo)</b>, muestra un texto al colocar el cursor encima
+			del elemento.
+		</p>
+		<img
+			src="http://globalmentoring.com.mx/imagenes/javascript.png"
+			width="100px"
+			title="Logo HTML5"
+		/>
+		<p title="Nuevo parrafo">Este es un nuevo parrafo</p>
+		<p>
+			<b>atributo style(todo)</b>, nos permite modificar visualmente los
+			elementos html
+		</p>
+		<p title="Nuevo parrafo" style="color: orange">Este es un nuevo parrafo</p>
+		<p>
+			<b>etiqueta pre(preformated)</b>, este tag respeta los espacios que tiene
+			nuestro parrafo en el código.
+		</p>
+		<pre>
+            Este es 
+            un parrafo 
+            con la etiqueta
+            pre
+        </pre
+		>
+	</body>
+</html>
