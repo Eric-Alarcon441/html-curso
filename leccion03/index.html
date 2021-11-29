@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Leccion03</title>
+		<!-- <style>
+			h1 {
+				color: blue;
+			}
+			p {
+				color: white;
+				background-color: black;
+			}
+		</style> -->
+		<!--Aquí enlazamos el archivo css-->
+		<link rel="stylesheet" href="css/style.css" />
+		<style>
+			h1 {
+				color: lightblue;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Universidad HTML</h1>
+		<!--Aqui aprendimos sobre el Manejo de de colores en css y html-->
+		<h2>Manejo de colores en CSS y HTML</h2>
+		<p>
+			Lista de colores en html
+			<a
+				href="https://htmlcolorcodes.com/es/nombres-de-los-colores/"
+				target="_blank"
+				>aquí</a
+			>
+		</p>
+		<p style="color: Crimson">Color por nombre</p>
+		<p style="color: rgb(220, 20, 60)">Color por rgb</p>
+		<p style="border: 10px solid; color: rgba(220, 20, 60, 0.4)">
+			Color con tranparencia rgba
+		</p>
+		<p style="color: hsl(348, 83%, 47%)">
+			Color por código hsl(rueda de colores hue 0-360, saturacion 0-100%,
+			iluminacion 0-100%)
+		</p>
+		<p style="border: 10px solid; color: hsla(348, 83%, 47%, 0.5)">
+			Color con tranparencia hsla
+		</p>
+		<p style="color: #dc143c">
+			Color por hexadecimal #dc143c funciona por pares: 1er par rojo, 2do par
+			verde, 3er par azul, tambien podemos simplificar los pares si estos se
+			repiten
+		</p>
+		<!--Aquí aprendimos la introduccion a css-->
+		<h2>Introducción a CSS</h2>
+		<p>
+			Dentro del head podemos hacer uso de la etiqueta style que nos permite
+			ingresar código CSS, lo recomendable es crear una carpeta y crear un
+			archivo css e insertar ahí el código, debemos agrear una etiqueta link en
+			el head para enlazar los archivos
+		</p>
+		<p>
+			La ventaja de tener el código css por separado es que podemos aplicar los
+			mismos stilos a diferentes archivos html
+		</p>
+		<a href="contenido.html">Ir al contenido</a>
+		<p>
+			Se llaman hojas de estilo en cascada por que se aplican desde los
+			elementos padre hasta los hijos
+		</p>
+		<!--Aquí aprendimos el cascadeo en las hojas de estilo-->
+		<h2>cascadeo en las hojas de estilo.</h2>
+		<p>
+			Los elementos padre aplican sus atributos a los hijos, para que un hijo
+			sea diferente debe tener sus propios atributos
+		</p>
+		<p>La jerarquia que se maneja es la siguiente</p>
+		<ul>
+			<li>1.- Estilo en etiqueta html</li>
+			<li>2.- Estilo dentro de la etiqueta style</li>
+			<li>3.- Estilo en archivo externo</li>
+		</ul>
+		<!--Aquí aprendimos box model en css-->
+		<h2>Box model</h2>
+		<p>Tenemos por defecto en los elementos de html lo siguiente</p>
+		<img
+			src="https://lh3.googleusercontent.com/proxy/k68T8_EPWRsKbb5LqAkJBxzORYTSz-pGe2oXk5eulfY5ZvzISGITaqdVZr39ce6a_CGbFuGj2Fu72RwqjwHNkW6Qf9fm8jNHMFvsbds6dyPZuF5WzzlKdhlu5n6QHLKK8mFSyOULVq69mCHcjNROFVP-ZSyvARk0l0ZZD6ZGn1mLPpmv-mrEGYlxSEUAHTfsCiLcZUIgpILVh8G2V7I3zbK4-NoanXUyP8lN92w3mm4Iv8vVABTn4IkScL7O2_k"
+			alt="propiedades html"
+		/>
+		<!--Aquí aprendimos manejo de padding, border, margin en css-->
+		<h2>Padding, border, margin</h2>
+		<p>Todas las propiedades tienen sus varciones para cada uno de sus lados</p>
+		<p>
+			margin-top <br />
+			margin-right <br />
+			margin-bottom <br />
+			margin-left
+		</p>
+		<p>
+			Podemos obviar el ingresar cada uno y usar la propiedad margin, padding o
+			border con 4 valores que tiene el orden: <br />
+			<br />
+			<b> top-right-bottom-left</b>
+			<br />
+			si a la propiedad se le escriben 3 valores <br />
+			margin: top left-right bottom <br />
+			si a la propiedad se le escriben 2 valores
+			<br />
+			margin: top-bottom left-right
+			<br />
+			si a la propiedad se le escribe 1 valor
+			<br />
+			margin: top-bottom-left-right
+			<br />
+			si a la propiedad se le escribe el valor auto, centra de manera horizontal
+			<br />
+			margin: auto
+		</p>
+		<p>Para centrar el texto utilizamos la propiedad text-align: center</p>
+		<!--Aquí aprendimos Ejemplo de paleta de colores en html-->
+		<h2>Paleta de colores</h2>
+		<p>
+			Podemos buscar una paleta de colores en esta página
+			<a href="http://coolors.co/palettes" target="_blanck">coolors.co</a>
+		</p>
+	</body>
+</html>
