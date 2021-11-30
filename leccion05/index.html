@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tablas en HTML</title>
+		<!--CSS-->
+		<link rel="stylesheet" href="css/estilos.css" />
+		<!--Google fonts Trocchi-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<h1>Universidad HTML</h1>
+		<!--Aquí aprendimos Tablas en html-->
+		<h2>Tablas en HTML</h2>
+		<p>La estructura de las tablas es:</p>
+		<ol>
+			<li>table</li>
+			<li>tr (table row)</li>
+			<li>th (table head)</li>
+			<li>td (table data)</li>
+		</ol>
+
+		<table>
+			<tr>
+				<th>Nombre</th>
+				<th>Apellido</th>
+				<th>Email</th>
+			</tr>
+			<tr>
+				<td>Juan</td>
+				<td>Perez</td>
+				<td>jperez@email.com</td>
+			</tr>
+			<tr>
+				<td>Maria</td>
+				<td>Lara</td>
+				<td>mlara@email.com</td>
+			</tr>
+		</table>
+		<!--Aquí aprendimos Estilos CSS en tablas HTML-->
+		<h2>Estilos CSS en tablas HTML</h2>
+		<p>El th centra y pone en negrita por defecto su contenido</p>
+		<table>
+			<tr>
+				<th>Nombre</th>
+				<th>Apellido</th>
+				<th>Email</th>
+			</tr>
+			<tr>
+				<td>Juan</td>
+				<td>Perez</td>
+				<td>jperez@email.com</td>
+			</tr>
+			<tr>
+				<td>Maria</td>
+				<td>Lara</td>
+				<td>mlara@email.com</td>
+			</tr>
+		</table>
+		<!--Aquí aprendimos atributos colspan y rowspan en tablas HTML-->
+		<h2>Colspan y rowspan en tablas HTML</h2>
+		<p>
+			colspan nos permite unir 2 o mas columnas de una tabla y rowspan nos
+			permite unir 2 o mas filas
+		</p>
+		<table>
+			<tr>
+				<th colspan="2">Nombre y apellido</th>
+				<th>Email</th>
+			</tr>
+			<tr>
+				<td>Juan</td>
+				<td>Perez</td>
+				<td rowspan="2">jperez@email.com</td>
+			</tr>
+			<tr>
+				<td>Maria</td>
+				<td>Lara</td>
+			</tr>
+		</table>
+
+		<!--Aquí aprendimos Estilos CSS en tablas HTML-->
+		<h2>Estilos CSS en tablas HTML</h2>
+		<p>Para poner un titulo a la tabla usamos la etiqueta caption</p>
+		<table>
+			<caption>
+				Listado de personas
+			</caption>
+			<tr>
+				<th>Nombre</th>
+				<th>apellido</th>
+				<th>Email</th>
+			</tr>
+			<tr>
+				<td>Juan</td>
+				<td>Perez</td>
+				<td>jperez@email.com</td>
+			</tr>
+			<tr>
+				<td>Maria</td>
+				<td>Lara</td>
+				<td>mlara@mail.com</td>
+			</tr>
+			<tr>
+				<td>Pedro</td>
+				<td>Lara</td>
+				<td>plara@mail.com</td>
+			</tr>
+			<tr>
+				<td>Carlos</td>
+				<td>Lara</td>
+				<td>clara@mail.com</td>
+			</tr>
+		</table>
+	</body>
+</html>
