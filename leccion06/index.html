@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Listas en HTML</title>
+		<!--CSS-->
+		<link rel="stylesheet" href="css/estilos1.css" />
+	</head>
+	<body>
+		<h1>Universidad HTML</h1>
+		<!--Aquí aprendimos Listas en HTML-->
+		<h2>Listas en HTML</h2>
+		<p>Existen 3 tipos de listas:</p>
+		<ol>
+			<li>listas ordenadas ol</li>
+			<li>
+				listas no ordenadas ul (icono punto, de puede cambiar con css
+				(list-style-type))
+			</li>
+			<li>listas de descripcion dl</li>
+		</ol>
+
+		<h3>Listas no ordenadas</h3>
+		<p>Podemos anidar listas añadiendo otra lista dentro del li</p>
+		<ul style="list-style-type: square">
+			<li>
+				Juan
+				<ul>
+					<li>tel 13423452354</li>
+					<li>cel 13423452354</li>
+				</ul>
+			</li>
+			<li>Karla</li>
+			<li>Maria</li>
+			<li>
+				Carlos
+				<ul>
+					<li>tel 1234567890</li>
+					<li>cel 0987654321</li>
+				</ul>
+			</li>
+		</ul>
+		<!--Aquí aprendimos a hacer un menú de navegación con listas HTML-->
+		<h2>Menú navegación en HTML</h2>
+
+		<a href="navegacion/menu.html">Menú</a>
+
+		<h3>Listas ordenadas</h3>
+		<p>
+			Podemos cambiar los números que vienen por defecto con el atributo type
+			por letras o numeros romanos, de igual forma podemos modificarlo con css
+		</p>
+		<ol type="A">
+			<li>Universidad html</li>
+			<li>Universidad css</li>
+			<li>Universidad javascript</li>
+			<li>Universidad python</li>
+			<li>Universidad excel</li>
+		</ol>
+		<h3>Listas de descripcion</h3>
+		<p>Tienen la siguiente estructura:</p>
+		<ul>
+			<li>Description list dl</li>
+			<li>descriction term dt</li>
+			<li>descriction data dd</li>
+		</ul>
+		<dl>
+			<dt>Java</dt>
+			<dd>Creador: James Gosling</dd>
+			<dt>Python</dt>
+			<dd>Creador: Guido van Rossum</dd>
+			<dt>Javascript</dt>
+			<dd>Creador: Brendan Eich</dd>
+		</dl>
+	</body>
+</html>
