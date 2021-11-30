@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Links HTML</title>
+		<!--CSS-->
+		<link rel="stylesheet" href="css/estilos.css" />
+	</head>
+	<body>
+		<h1>Universidad HTML</h1>
+		<br />
+
+		<!--Aquí aprendimos estados y colores de los links en HTML y CSS-->
+		<h2>Estados y colores de los links</h2>
+		<p>Los links manejan 3 estados y cada estado tiene su color por defecto</p>
+		<p>
+			Cuando el link no ha sido clickeado tiene color azul y cuando ya se ha
+			visitado tiene color azul y al mantener presionado (link activo) tiene
+			color rojo
+		</p>
+		<a href="/leccion04/web/contenido.html">Ir a contenido</a>
+
+		<!--Aquí aprendimos Links con imágenes en HTML-->
+		<h2>Links con imágenes en HTML</h2>
+		<p>
+			Podemos agregar imagenes a nuestros links ingrsando una etiqueta
+			<b>img</b> dentro de nuestra etiqueta <b>a</b>
+		</p>
+		<a href="http://globalmentoring.com.mx" target="_blank">
+			<img
+				src="http://globalmentoring.com.mx/imagenes/gm.png"
+				alt="Logo GM"
+				style="width: 150px; height: 74px"
+			/>
+		</a>
+		<!--Aqui aprendmos links como botones en HTML y CSS-->
+		<h2>Links como botones con CSS</h2>
+		<a href="/leccion04/web/contenido.html">Ir al contenido</a>
+		<!--Aquí aprendimos Rutas relativas y absolutas-->
+		<h2>Rutas relativas y absolutas</h2>
+		<p>
+			En la ruta absoluta incluimos la url completa del archivo (no recomenda
+			para archivos del mismo programa, si para enlaces externos)
+		</p>
+		<a href="http://localhost:5500/leccion04/contenido.html"
+			>Ir al contenido (con ruta absoluta)</a
+		>
+		<br />
+		<a href="http://globalmentoring.com.mx" target="_blank">Global mentoring</a>
+		<p>
+			En la ruta relativa podemos especificar solamente el nombre del archivo(si
+			se encuentra al mismo nivel que el index.html), si el archivo se encuentra
+			en una carpeta distinta debemos especificar la carpeta y el nombre del
+			archivo, si nuestro index.html no se encuentra en la raiz de la aplicacion
+			podemos poner una diagonal antes del nombre de la carpeta para que haga
+			referencia al la ruta inicial del proyecto, poner la diagonal es lo
+			recomendado
+		</p>
+		<a href="/leccion04/web/contenido.html"
+			>Ir al contenido (con ruta relativa /)</a
+		>
+	</body>
+</html>
